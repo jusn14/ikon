@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;
-    background-color: rgb(97, 62, 10);
+    background-color: rgb(66, 34, 4);
 }
 body{
     margin: 0px;
@@ -15,13 +15,15 @@ header{
     padding:10px 10px;
     box-sizing: border-box;
 }
-.logoHeader{
+
+.logoHeader {
     font-size: 24px;
     margin: 0;
 }
 .logoHeader{
     text-align: left;
     color:blanchedalmond;
+}
 header img{
     height: 200px;
     width: 300px
@@ -176,6 +178,7 @@ section.con{
     }
 
 }
+
 
 
 

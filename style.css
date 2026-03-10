@@ -1,0 +1,166 @@
+html{scroll-behavior: smooth;
+    background-color: rgb(97, 62, 10);
+}
+body{
+    margin: 0px;
+}
+header {
+    text-align: center;
+    background-color: rgba(66, 34, 4, 0.568);
+    padding: 10px  15px;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    height: 200px;
+    width: 300px
+}
+nav a{
+    font-family: Audiowide;
+    background-color: blanchedalmond;
+    padding: 5px 15px;
+    color: rgb(66, 34, 4);
+    text-decoration: none;
+    border-radius: 20px 20px 0px 0px;
+    transition: 1s;
+    font-size: 20px;
+}
+nav a:hover{
+    color: blanchedalmond;
+    background-color: rgb(66, 34, 4);
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 3px 5px 5px 5px rgb(128, 87, 0);
+    padding: 7px 20px;
+    transition: 0,5s;
+}
+.home{
+    background-image: url(bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    padding-top: 50px;
+    font-size: large;
+    background-attachment: fixed;
+}
+.deskripsiHome{
+    width: 40%;
+    font-size: 20px;
+    background-size: cover;
+    padding-top: 50px;
+    margin-left: 50px;
+    & h3{
+        color:rgb(109, 76, 32);
+        background-color: rgba(255, 235, 205, 0.705);
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    & p{
+        color:rgb(109, 76, 32);
+        background-color: rgba(255, 235, 205, 0.712);
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    & h1{
+        color:rgb(94, 63, 24);
+    }
+}
+.deskripsiHome a{
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: rgb(109, 76, 32);
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.deskripsiHome a:hover{
+    box-shadow: 0px 0px 7px 12px;
+    transition: 1s;
+}
+section.project{
+    background-color: rgb(255, 235, 205);
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    color: rgb(97, 62, 10);
+}
+section.project img{
+    height: 300px;
+    text-align: center;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+        height: 500px
+    }
+}
+section.howto{
+    color:rgb(97, 62, 10);
+    height:640px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 235, 205);
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+.howto img{
+    height:500px;
+}
+.deskHowto{
+    display: flex;
+    width: 60%;
+    margin:auto;
+}
+.dokumentasi{
+    margin: 20px;
+}
+.cardProfile{
+    background-color: rgb(255, 235, 205);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.imgProfile img{
+    width:100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+section.con{
+    background-color: rgb(255, 235, 205);
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    color: rgb(97, 62, 10);
+}
+.deskCon{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+        height: 500px
+    }
+}

@@ -18,9 +18,10 @@ header{
 .logoHeader{
     font-size: 24px;
     margin: 0;
+}
+.logoHeader{
     text-align: left;
     color:blanchedalmond;
-}
 header img{
     height: 200px;
     width: 300px
@@ -175,5 +176,6 @@ section.con{
     }
 
 }
+
 
 

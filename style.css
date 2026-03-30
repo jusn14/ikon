@@ -172,12 +172,18 @@ section.howto{
     height: 40px;
     text-decoration: none;
     padding-top: 5px;
-
 }
 .medsos a{
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
+}
+.medsos a:hover{
+    color: blanchedalmond;
+    background-color: rgb(66, 34, 4);
+    box-shadow: 3px 5px 5px 5px rgb(128, 87, 0);
+    transition: 1s;
+    border-radius: 15px;
 }
 .fa-instagram {
     color: rgb(117, 75, 26);
